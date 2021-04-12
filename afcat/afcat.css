@@ -1,0 +1,123 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./images/cap.jpg");
+  background-size: cover;
+  height: 750px;
+}
+#navbar {
+  color: white;
+  width: 100%;
+  font: 400 14px/1.8 "Open Sans", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#navbar nav > ul {
+  list-style: none;
+  font-family: "Roboto Condensed", sans-serif;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  padding-top: 30px;
+}
+#navbar nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 10px 20px;
+  color: white;
+  margin: 10px auto;
+}
+#navbar nav ul ul {
+  background: #111;
+  list-style: none;
+  width: 200px;
+  position: absolute;
+  top: 110px;
+  border-top: 1px solid black;
+  display: none;
+}
+#navbar nav ul ul li a {
+  display: block;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 5px;
+  font-size: 10px;
+  border-bottom: 1px solid black;
+  justify-content: center;
+}
+#navbar nav ul li:hover {
+  background: black;
+  color: #fff;
+}
+#navbar nav ul li:hover > ul {
+  display: block;
+}
+#header {
+  height: 40px;
+  width: 100%;
+}
+#header article {
+  height: 50px;
+  width: 80%;
+  margin: 20px auto;
+  padding-top: 15px;
+  display: flex;
+}
+.leftBlock {
+  width: 60%;
+  display: flex;
+}
+.logo {
+  width: 15%;
+}
+h1 {
+  color: white;
+  letter-spacing: 1.49px;
+  font-size: 25px;
+}
+.middlelogo img {
+  margin-top: 60px;
+  margin-left: 620px;
+}
+.head {
+  width: 40%;
+  margin: 0 auto;
+}
+.head h1 {
+  padding: 5px;
+  font-size: 25px;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  justify-content: center;
+  text-align: center;
+}
+marquee {
+  margin-top: 180px;
+  color: honeydew;
+  font-size: 25px;
+}
+.rightblock {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.rightblock ul {
+  display: flex;
+  margin-left: 150px;
+}
+.rightblock ul li {
+  text-decoration: none;
+  padding: 10px;
+  list-style: none;
+  color: #fff;
+  display: flex;
+}
+.rightblock ul li i {
+  font-size: 25px;
+}
